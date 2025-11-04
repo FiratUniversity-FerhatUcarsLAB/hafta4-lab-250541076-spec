@@ -61,11 +61,10 @@ public class OgrenciBilgi {
         
         // Bilgileri ekrana yazdirin
         System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        System.out.println("Ad Soyad: " + ad " " + soyad);
+        System.out.println("Ad Soyad: " + ad + " " + soyad);
         System.out.println("Ogrenci No: " + ogrenciNo);
         System.out.println("Yas: " + yas);
-        System.out.printf("GPA: %.2f\n", gpa);
-
+        System.out.printf("GPA: %.2f%n", gpa);
         if(gpa >= 2.0) {
             System.out.println("Durum: Basarili Ogrenci");
         } else {
