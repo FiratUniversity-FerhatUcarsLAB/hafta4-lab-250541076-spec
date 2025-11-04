@@ -35,5 +35,11 @@ public class GeometrikHesap {
 
     //Sonuçları yazdır
     System.out.println("\nSONUÇLAR:");
-    System.out.printf("Daire Alani      : %.2f cm
-    
+    System.out.printf("Daire Alani      : %.2f cm²%n", daireAlani);
+    System.out.printf("Daire Cevresi    : %.2f cm%n, daireCevresi);
+    System.out.printf("Kure Hacmi       : %.2f cm%n, kureHacmi);
+    System.out.printf("Kure Yuzey Alani : %.2f cm²%n, KureYuzeyAlani);
+
+    input.close();
+  }
+}
